@@ -1,0 +1,26 @@
+To run the image, run the following on terminal
+
+1. build the image first by runnning (from the root directory)
+
+~ docker build .
+
+2. Then expose the image to your local machine  (first port is your local machine, then the next one is the docker image)
+
+docker run -p 3000:80 xxxx (image name)
+
+3. Browse your computer / browser to 
+
+localhost:3000 
+
+
+4. To stop the image from runnning
+
+Run 
+
+docker ps -a
+
+5. to find the running image copy the name, then run 
+
+docker stop xxxx (image name)
+
+6. image is successfully stopped.
