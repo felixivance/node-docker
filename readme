@@ -24,3 +24,7 @@ docker ps -a
 docker stop xxxx (image name)
 
 6. image is successfully stopped.
+
+NB:
+
+if code is changed you have to build the image whole again
