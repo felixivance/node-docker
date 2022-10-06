@@ -11,9 +11,10 @@ RUN npm install
 
 COPY . /app
 
-EXPOSE 3000
+EXPOSE 80
 
-CMD ["npm", "start"]
+# run code when image is started
+CMD ["node", "server.js"]
 
 # Language: dockerfile
 # Path: Dockerfile
