@@ -1,4 +1,6 @@
+# install image from node
 FROM node;
+
 # set working directory
 WORKDIR /app
 
