@@ -11,6 +11,7 @@ RUN npm install
 
 COPY . /app
 
+# documentation purposes, only does not expose the selected port
 EXPOSE 80
 
 # run code when image is started
