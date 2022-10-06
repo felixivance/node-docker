@@ -4,7 +4,7 @@ FROM node
 # set working directory
 WORKDIR /app
 
-# copy package.json
+# copy package.json first for optimization
 COPY package.json /app
 
 RUN npm install
