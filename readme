@@ -28,3 +28,21 @@ docker stop xxxx (image name)
 NB:
 
 if code is changed you have to build the image whole again
+
+7. List images
+docker images
+
+8. Remove image
+docker rmi xxxx (image name)
+
+9. Remove all images
+docker rmi $(docker images -a -q)
+
+10. Remove all containers
+docker rm $(docker ps -a -q)
+
+11. Remove all images and containers
+docker system prune -a
+
+12. Remove all stopped containers
+docker rm $(docker ps -a -q)
