@@ -46,3 +46,15 @@ docker system prune -a
 
 12. Remove all stopped containers
 docker rm $(docker ps -a -q)
+
+13. Tag a docker image
+
+docker tag xxxx (image name) xxxx (image name)
+
+14. analyze docker image
+
+docker xxxx inspect  (image name)
+
+15. Run docker image in background
+
+docker run -d -p 3000:80 xxxx (image name)
