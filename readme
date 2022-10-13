@@ -4,9 +4,9 @@ To run the image, run the following on terminal
 
 ~ docker build .
 
-2. Then expose the image to your local machine  (first port is your local machine, then the next one is the docker image)
+2. Then expose the image to your local machine  (first port is your local machine, then the next one is the docker image, --rm removes once completed)
 
-docker run -p 3000:80 xxxx (image name)
+docker run -p 3000:80 xxxx --rm (image name)
 
 3. Browse your computer / browser to 
 
@@ -57,7 +57,7 @@ docker xxxx inspect  (image name)
 
 15. Run docker image in background
 
-docker run -d -p 3000:80 xxxx (image name)
+docker run -d -p 3000:80 --rm xxxx (image name)
 
 16. Start an existing docker image
 
