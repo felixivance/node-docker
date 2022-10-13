@@ -70,3 +70,7 @@ docker logs xxxx (image name)
 18. to see the logs of a running docker image in real time
 
 docker logs -f xxxx (image name)
+
+19. starting docker in attach mode
+
+docker start -a xxxx (image name)
