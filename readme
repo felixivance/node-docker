@@ -58,3 +58,7 @@ docker xxxx inspect  (image name)
 15. Run docker image in background
 
 docker run -d -p 3000:80 xxxx (image name)
+
+16. Start an existing docker image
+
+docker start xxxx (image name)
