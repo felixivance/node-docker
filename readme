@@ -74,3 +74,15 @@ docker logs -f xxxx (image name)
 19. starting docker in attach mode
 
 docker start -a xxxx (image name)
+
+20. docker start in interactive mode
+
+docker run -it xxxx (image name) / docker start -a -i xxxx (image name)
+
+21. remove all stopped containers
+
+docker rm $(docker ps -a -q)
+
+22. remove all images
+
+docker rmi $(docker images -a -q)
