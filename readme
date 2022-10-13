@@ -62,3 +62,11 @@ docker run -d -p 3000:80 xxxx (image name)
 16. Start an existing docker image
 
 docker start xxxx (image name)
+
+17. to see the logs of a running docker image
+
+docker logs xxxx (image name)
+
+18. to see the logs of a running docker image in real time
+
+docker logs -f xxxx (image name)
