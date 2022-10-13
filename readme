@@ -86,3 +86,11 @@ docker rm $(docker ps -a -q)
 22. remove all images
 
 docker rmi $(docker images -a -q)
+
+23. copy files from local to docker image
+
+docker cp xxxx (image name):/path/to/file /path/to/file
+
+24. copy files from docker image to local
+
+docker cp /path/to/file xxxx (image name):/path/to/file
